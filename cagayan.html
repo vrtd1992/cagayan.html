@@ -1,0 +1,209 @@
+
+
+
+<!doctype html>
+<html lang="fr" class="no-js">
+<head>
+  <!--<meta http-equiv="refresh" content="120" >-->
+  <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+  <script src="js/timer/Timer.js"></script>
+  <script src="js/timer/Timer2.js"></script>
+  <script src="js/initialize.js"></script>
+  <style>
+    .column {
+  
+    float: left;
+    width: 25%;
+    }
+  .footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: -30px; 
+       width: 100%;
+       
+     }
+  .centered {
+    position: absolute;
+    font-family: Helvetica;
+    color: #FFF;
+    font-size:20px;
+    background-color: rgba(50, 50, 50, 0.3);
+}
+
+.column .overlay {
+  position: absolute;
+  text-align: center;
+  color: #39ff14;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-family: Arial;
+  font-size: 50px;
+  padding: 10px;
+  font-weight: bold;
+}  
+
+
+    </style>
+</head>
+
+
+
+<body>
+
+<table>
+
+<div class="column">
+  <div>
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="600" height="300">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y1.flv&amp;title=Y1&amp;width=600&amp;height=300&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+    <div class="overlay" style="left: 80px; top: 310px; margin: 10px; padding: 5px 5px;">Y1</div>
+  </div>
+  <div>
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y6.flv&amp;title=Y6&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+    <div class="overlay" style="left: 80px; top: 645px; margin: 10px; padding: 5px 5px;">Y6</div>
+
+</div>
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y8.flv&amp;title=Y6&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+<div class="overlay" style="left: 80px; top: 975px; margin: 10px; padding: 5px 5px;">Y8</div>
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y10.flv&amp;title=Y10&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+  <div class="overlay" style="left: 80px; top: 1310px; margin: 10px; padding: 5px 5px;">Y10</div>
+  </div>
+  
+  <div class="column">
+      <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y2.flv&amp;title=Y2&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+  <div class="overlay" style="left: 930px; top: 340px; margin: 0 auto; padding: 5px 5px; ">Y2</div>
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y1.flv&amp;title=Y1&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+	<div class="overlay" style="left: 930px; top: 960px; margin: 0 auto; padding: 5px 5px; ">Y1</div>
+    <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y1.flv&amp;title=Y1&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+    <div class="overlay" style="left: 940px; top: 1330px; margin: 0 auto; padding: 5px 5px; ">Y1</div>
+  </div>
+  
+  <div class="column">
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y3.flv&amp;title=Y3&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+      <div class="overlay" style="left: 1570px; top: 340px; margin: 0 auto; padding: 5px 5px; ">Y3</div>
+
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y1.flv&amp;title=Y1&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+        <div class="overlay" style="left: 1570px; top: 960px; margin: 0 auto; padding: 5px 5px; ">Y1</div>
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y1.flv&amp;title=Y1&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+  <div class="overlay" style="left: 1550px; top: 1325px; margin: 0 auto; padding: 5px 5px; ">Y1</div>
+  </div>
+  
+  <div class="column">
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y5.flv&amp;title=Y5&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+  <div class="overlay" style="left: 2400px; top: 320px; margin: 0 auto; padding: 5px 5px; ">Y5</div>
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y7.flv&amp;title=Y7&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+  <div class="overlay" style="left: 2400px; top: 660px; margin: 0 auto; padding: 5px 5px; ">Y7</div>
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y9.flv&amp;title=Y9&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+  <div class="overlay" style="left: 2390px; top: 983px; margin: 0 auto; padding: 5px 5px; ">Y9</div>
+   <object type="application/x-shockwave-flash" data="http://flv-player.net/medias/player_flv_multi.swf" width="854" height="480">
+    	<param name="movie" value="http://flv-player.net/medias/player_flv_multi.swf" />
+    	<param name="allowFullScreen" value="true" />
+    	<param name="FlashVars" value="flv=https://playing2.673ing.com/flv/Y1.flv&amp;title=Y1&amp;width=854&amp;height=480&amp;autoload=&amp;autonext=0&amp;volume=0&amp	;showvolume=1&amp;showprevious=1&amp;shownext=1&amp;showfullscreen=1;&amp;showplayer=always;&amp;onclick=none" />
+	</object>
+  <div class="overlay" style="left: 2390px; top: 1310px; margin: 0 auto; padding: 5px 5px; ">Y13</div>
+  </div>
+
+  
+  
+  <center><p style="font-size:30px;position:bottom;right:35%; "><b>Cagayan Date/Time:</b> <b><span id="date"> </span><span id="txt"></b></span></p></center>
+
+
+  <script src="js/insert/Insert_Delays_Value.js"></script>
+  <script src="js/timerstamp/timestamp.js"></script>
+  <script src="js/timer/GetTimeUnit.js"></script>
+  <script src="js/src/Videosrc.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+  <script>
+ 
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+  
+  var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    var curWeekDay = days[today.getDay()];
+    var curDay = today.getDate();
+    var curMonth = months[today.getMonth()];
+    var curYear = today.getFullYear();
+    var date = curDay+" "+curMonth+" "+curYear+" ";
+    document.getElementById("date").innerHTML = date;
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+ 
+</body>
+
+<body onload="startTime()">
+<div id="txt"></div>
+<div id="date"></div>
+</body>
+
+</html>
